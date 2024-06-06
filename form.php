@@ -6,7 +6,7 @@
 	<title>Formulário - PHP</title>
 </head>
 <body>
-	<form action="recebe.php" method="post">
+	<form action="recebe.php" method="POST">
 		O que você gosta de fazer?
 		<br><br>
 		<input type="checkbox" name="escolher[]" value="Pescar"> Pescar <br>
@@ -21,7 +21,8 @@
 		<input type="radio" name="sexo" value="masc"> Masculino <br /><br />
 
 		Selecione o estado: <br /><br />
-		<select name="estados" id="est">
+		<select name="estados" >
+			<option value=""></option>
 			<option value="sp">São Paulo</option>
 			<option value="rj">Rio de Janeiro</option>
 			<option value="mg">Minas Gerais</option>

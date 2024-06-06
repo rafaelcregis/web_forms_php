@@ -12,8 +12,8 @@
 		echo "Você não escolheu";
 	}
 
-	if (isset($_POST['estado'])) {
-		echo "<br>Você escolheu: " . $_POST['estado'];		
+	if (isset($_POST['estados'])) {
+		echo "<br>Você escolheu: " . $_POST['estados'];		
 	}else {
 		echo "<br>Você não selecionou nenhum estado";
 	}
